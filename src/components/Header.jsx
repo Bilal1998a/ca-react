@@ -11,7 +11,7 @@ function Header({ cart }) {
             <Link className="nav-link mr-3" to="/" style={styles.link}>Home</Link>
             <Link className="nav-link mr-3" to="/contact" style={styles.link}>Contact</Link>
           </div>
-          {/* Updated Cart Link */}
+          
           <Link className="nav-link" to="/cart" style={styles.cartLink}>
             <i className="fas fa-shopping-cart" style={styles.cartIcon}></i> Cart {cart.length > 0 && <span>({cart.length})</span>}
           </Link>
