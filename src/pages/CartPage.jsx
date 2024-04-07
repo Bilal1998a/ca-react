@@ -28,7 +28,7 @@ function CartPage({ cart, clearCart }) {
         <div style={{ marginTop: '20px' }}>
           <p>Subtotal: ${subtotal.toFixed(2)}</p>
           {}
-         {/*  <Link to="/checkout-success-page" style={{ backgroundColor: '#007bff', color: '#fff', border: 'none', padding: '10px 20px', borderRadius: '5px', cursor: 'pointer', textDecoration: 'none' }} onClick={handleCheckout}>Checkout</Link> */}
+          <Link to="/checkout-success-page" style={{ backgroundColor: '#007bff', color: '#fff', border: 'none', padding: '10px 20px', borderRadius: '5px', cursor: 'pointer', textDecoration: 'none' }} onClick={handleCheckout}>Checkout</Link>
         </div>
       </div>
     </div>
