@@ -6,7 +6,7 @@ function Header({ cart }) {
     <nav style={styles.navbar}>
       <div className="container" style={styles.container}>
         <div className="d-flex align-items-center">
-          <Link className="navbar-brand mr-4" to="/" style={styles.brand}>Your App Name</Link>
+          <Link className="navbar-brand mr-4" to="/" style={styles.brand}>EkteVarer</Link>
           <div className="d-flex align-items-center mr-auto">
             <Link className="nav-link mr-3" to="/" style={styles.link}>Home</Link>
             <Link className="nav-link mr-3" to="/contact" style={styles.link}>Contact</Link>
