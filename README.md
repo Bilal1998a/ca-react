@@ -1,1 +1,1 @@
-This is my website for a 
+This is my website for an ecommerce shop using JS frameworks.
